@@ -1,0 +1,29 @@
+.selectdiv {
+    display: inline-block;
+    margin-left: 1rem;
+}
+  
+.selectdiv select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #000;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    list-style: none;
+    text-indent: -1em;
+}
+
+ul li:before {
+    content: '- ';
+    font-weight: bold;
+}
