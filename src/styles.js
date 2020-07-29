@@ -84,7 +84,7 @@ export const descriptionItemStyles = {
 
 export const dialogueFormSyles = {
     fontSize: "1.1em",
-    fontWeight: "bold",
+    fontWeight: "",
     margin: "2rem",
     marginTop: "4rem"
 }
@@ -142,7 +142,6 @@ export const submitButtonStyles = {
     border: "none",
     color: "#FFF",
     fontSize: "1.3rem",
-    fontWeight: "bold",
     height: "3rem",
     marginTop: "2.8vh",
     marginBottom: "3rem",

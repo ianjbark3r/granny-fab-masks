@@ -231,8 +231,8 @@ export default class App extends Component {
                           key="0"
                           value={this.state.size} 
                           onChange={this.handleChange}
-                          >
-                          <option key="00" value="small">small</option>
+                        >
+                          <option key="00" value="regular">regular</option>
                           <option key="01" value="large">large</option>
                           <option key="02" value="kids">kid's</option>
                           <option key="03" value="custom">custom</option>
@@ -246,7 +246,7 @@ export default class App extends Component {
                           key="1" 
                           value={this.state.decor} 
                           onChange={this.handleChange}
-                          >
+                        >
                           <option key="10" value="heavyBling">heavy bling</option>
                           <option key="11" value="halfBling">half bling</option>
                           <option key="12" value="floralEmb">floral embroidery</option>
@@ -264,7 +264,7 @@ export default class App extends Component {
                           key="2"
                           value={this.state.color} 
                           onChange={this.handleChange}
-                          >
+                        >
                           <option key="20" value="black">black</option>
                           <option key="21" value="white">white</option>
                           <option key="22" value="grey">grey</option>

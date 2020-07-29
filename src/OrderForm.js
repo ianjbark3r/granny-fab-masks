@@ -24,7 +24,7 @@ const sendFeedback= (templateParams) => {
     .send(serviceID, templateID, templateParams)
     .then(function () {
         console.log("Form successfully submitted")
-        alert("Thank you for your order! We will reach out to you soon with a price quote, so sit tight and stay frosty!");
+        alert("Thank you for your order! You will receive an email shortly with a price quote and payment options. Until then, sit tight and stay safe!");
     }, function (err) {
         alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
     })
@@ -109,11 +109,15 @@ const OrderForm = props => {
             X
           </div>
           <form onSubmit={formik.handleSubmit} style={dialogueFormSyles}>
+            <h1 className="mb-4">Confirm Your Order</h1>
+            <p>
+              NOTE: Because each mask is entirely customized to your preferences, and masks are priced on a sliding scale, you will receive an email with your price quote and payment options <em>after</em> submitting your order.
+            </p>
             <p>
               Please confirm your order details. If you need a special size or are submitting a custom order, please provide details in the notes section below.
             </p>
             <div className="form-group">
-              <label className="form-check-label">Name:</label>
+              <label style={{fontWeight: "bold"}}>Name:</label>
               <input
                 className="form-control"
                 id="name"
@@ -126,7 +130,7 @@ const OrderForm = props => {
               <div style={errorStyles}>{formik.errors.name}</div>
             ) : null}
             <div className="form-group">  
-              <label className="form-check-label">Email address:</label>
+              <label style={{fontWeight: "bold"}}>Email address:</label>
               <input
                 className="form-control"
                 id="email"
@@ -138,9 +142,8 @@ const OrderForm = props => {
             {formik.touched.email && formik.errors.email ? (
               <div style={errorStyles}>{formik.errors.email}</div>
             ) : null}
-
             <div className="form-group">  
-              <label className="form-check-label">Size:</label>
+              <label style={{fontWeight: "bold"}}>Size:</label>
               <select
                 className="form-control"
                 id="size"
@@ -154,7 +157,7 @@ const OrderForm = props => {
               </select>
             </div>
             <div className="form-group">
-              <label>Decor:</label>
+              <label style={{fontWeight: "bold"}}>Decor:</label>
               <select
                 className="form-control"
                 id="decor"
@@ -171,7 +174,7 @@ const OrderForm = props => {
               </select>
             </div>
             <div className="form-group">
-              <label>Color:</label>
+              <label style={{fontWeight: "bold"}}>Color:</label>
               <select
                 className="form-control"
                 id="color"
@@ -186,7 +189,7 @@ const OrderForm = props => {
               </select>
             </div>
             <div className="form-group">
-              <label>Shipping:</label>
+              <label style={{fontWeight: "bold"}}>Shipping:</label>
               <select
                 className="form-control"
                 id="shipping"
@@ -198,7 +201,7 @@ const OrderForm = props => {
               </select>
             </div>
             <div className="form-group">
-              <label>Custom/sizing notes</label>
+              <label style={{fontWeight: "bold"}}>Custom/sizing notes</label>
               <textarea 
                 className="form-control" 
                 id="notes"
