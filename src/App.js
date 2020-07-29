@@ -194,7 +194,12 @@ export default class App extends Component {
             className="row justify-content-center"
           >
             <div style={descriptionStyles} className={descriptionClasses}>
-              <img alt="Granny Fab logo" className={logoDesktopClasses} style={logoStylesDesktop} src={logo}></img>
+              <img 
+                alt="Granny Fab logo" 
+                className={logoDesktopClasses} 
+                style={logoStylesDesktop} 
+                src={logo} 
+              />
               <div className={iconContainerClasses}>
                 <a 
                   href="https://www.facebook.com/grannyfabulous" 

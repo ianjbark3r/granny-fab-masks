@@ -98,11 +98,13 @@ export const errorStyles = {
 
 export const logoStylesDesktop = {
     width: "15vw",
+    height: "6.7vw",
     zIndex: "50"
 }
 
 export const logoStylesMobile = {
     width: "10rem",
+    height: "4.5rem",
     zIndex: "50"
 }
 
