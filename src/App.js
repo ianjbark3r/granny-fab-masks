@@ -167,9 +167,27 @@ export default class App extends Component {
               src={logo} />
           </div>
           <div className="row justify-content-center">
-            <img alt="Facebook" className={logoMobileClasses} src={fb} />
-            <img alt="Instagram" className={logoMobileClasses} src={instagram} />
-            <img alt="Depop" className={logoMobileClasses} src={depop} />
+            <a
+              href="https://www.facebook.com/grannyfabulous"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img alt="Facebook" className={logoMobileClasses} src={fb} />
+            </a>
+            <a
+              href="https://www.instagram.com/granny_fab/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img alt="Instagram" className={logoMobileClasses} src={instagram} />
+            </a>
+            <a
+              href="https://www.depop.com/grannyfab/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img alt="Depop" className={logoMobileClasses} src={depop} />
+            </a>
           </div>
           <div 
             id="orderform" 
