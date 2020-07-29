@@ -150,7 +150,7 @@ export default class App extends Component {
     }
 
     return (
-      <div className="App">
+      <div className="App" id="top">
         <div className="container-fluid" onKeyDown={this.handleKeyDown}>
           {this.state.dialogue && 
             <OrderForm 
@@ -190,7 +190,6 @@ export default class App extends Component {
             </a>
           </div>
           <div 
-            id="orderform" 
             className="row justify-content-center"
           >
             <div style={descriptionStyles} className={descriptionClasses}>
@@ -308,7 +307,7 @@ export default class App extends Component {
               onClick={this.handleDialogue}
               style={redButtonDesktopStyles} 
               >order</button>
-            <AnchorLink href='#orderform'>
+            <AnchorLink href='#top'>
               <button
                 className={smallImageClasses}
                 onClick={this.handleDialogue}
