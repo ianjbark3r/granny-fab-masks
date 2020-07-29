@@ -10,11 +10,15 @@ export const confirmDialogueWrapperClasses = "row justify-content-center";
 
 export const descriptionClasses = "col-md col-sm-10";
 
+export const iconContainerClasses = "d-lg-flex justify-content-center";
+
+export const iconDesktopClasses = "d-none d-lg-inline-flex mx-1"
+
 export const largeImageClasses = "col-md-6 d-none d-lg-block";
 
 export const logoDesktopClasses = "d-none d-lg-block mx-auto";
 
-export const logoMobileClasses = "d-block d-lg-none";
+export const logoMobileClasses = "d-block d-lg-none mx-2";
 
 export const smallImageClasses = "col-sm-12 d-block d-lg-none";
 
@@ -72,7 +76,7 @@ export const descriptionStyles = {
 
 export const descriptionItemStyles = {
     fontFamily: "Helvetica Neue, sans-serif",
-    fontSize: "1.1rem",
+    fontSize: "1.2rem",
     fontWeight: "bold",
     lineHeight: "1.7rem",
     marginBottom: "2.8vh"
@@ -83,6 +87,13 @@ export const dialogueFormSyles = {
     fontWeight: "bold",
     margin: "2rem",
     marginTop: "4rem"
+}
+
+export const errorStyles = {
+    color: "red",
+    fontWeight: "normal",
+    marginBottom: "1rem",
+    marginTop: "-0.6rem"
 }
 
 export const logoStylesDesktop = {
@@ -143,7 +154,7 @@ export const titleStyles = {
     fontSize: "2.5rem",
     fontWeight: "700",
     marginBottom: "3vh",
-    paddingTop: "calc(5vh + 4vw)"
+    paddingTop: "calc(4vh + 3vw)"
 }
 
 export const largeImageStyles = {
