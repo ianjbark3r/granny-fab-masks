@@ -165,11 +165,12 @@ const OrderForm = props => {
                 value={formik.values.decor}
               >
                 <option value="heavyBling">heavy bling</option>
-                <option value="halfBling">half bling</option>
                 <option value="floralEmb">floral embroidery</option>
+                <option value="fringe">fringe</option>
+                <option value="halfBling">half bling</option>
                 <option value="laceEmb">lace embroidery</option>
-                <option value="sequin">sequin</option>
                 <option value="plain">plain</option>
+                <option value="sequin">sequin</option>
                 <option value="custom">custom</option>
               </select>
             </div>
