@@ -33,11 +33,15 @@ import {
 const data = [
   {
     decor: "custom",
-    numOfImages: 5
+    numOfImages: 9
   },
   {
     decor: "floralEmb",
-    numOfImages: 3
+    numOfImages: 4
+  },
+  {
+    decor: "fringe",
+    numOfImages: 2
   },
   {
     decor: "halfBling",
