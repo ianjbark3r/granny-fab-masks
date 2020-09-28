@@ -133,7 +133,7 @@ export const redButtonMobileStyles = {
     fontWeight: "bold",
     height: "3rem",
     position: "absolute",
-    bottom: "-105vh",
+    bottom: "-110vh",
     right: "6vw",
     width: "12rem"
 }

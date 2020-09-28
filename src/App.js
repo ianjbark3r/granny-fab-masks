@@ -233,7 +233,7 @@ export default class App extends Component {
                 <div style={descriptionItemStyles}>
                   <ul>
                     <li key="0"> 
-                      a <div className="selectdiv" key="0">
+                      <div className="selectdiv" key="0">
                         <select 
                           id="size" 
                           key="0"
