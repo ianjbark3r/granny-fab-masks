@@ -138,6 +138,10 @@ export const redButtonMobileStyles = {
     width: "12rem"
 }
 
+export const socialIconStyles = {
+    width: "20px"
+}
+
 export const submitButtonStyles = {
     backgroundColor: "#c83f49",
     borderRadius: "100px",

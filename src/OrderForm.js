@@ -150,7 +150,7 @@ const OrderForm = props => {
                 onChange={formik.handleChange}
                 value={formik.values.size}
               >
-                <option value="small">small</option>
+                <option value="regular">regular</option>
                 <option value="large">large</option>
                 <option value="kids">kid's</option>
                 <option value="custom">custom</option>

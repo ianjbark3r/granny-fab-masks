@@ -26,6 +26,7 @@ import {
   titleStyles,
   largeImageStyles,
   smallImageStyles,
+  socialIconStyles,
   maskPhotoStyles,
   maskPhotoMobileStyles,
 } from './styles';
@@ -73,7 +74,7 @@ export default class App extends Component {
       dialogue: false,
       name: "",
       email: "",
-      size: "small",
+      size: "regular",
       decor: "heavyBling",
       num: 0,
       color: "black",
@@ -176,21 +177,36 @@ export default class App extends Component {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <img alt="Facebook" className={logoMobileClasses} src={fb} />
+              <img 
+                alt="Facebook" 
+                className={logoMobileClasses} 
+                src={fb}
+                style={socialIconStyles}
+              />
             </a>
             <a
               href="https://www.instagram.com/granny_fab/"
               rel="noopener noreferrer"
               target="_blank"
             >
-              <img alt="Instagram" className={logoMobileClasses} src={instagram} />
+              <img 
+                alt="Instagram" 
+                className={logoMobileClasses} 
+                src={instagram}
+                style={socialIconStyles}
+              />
             </a>
             <a
               href="https://www.depop.com/grannyfab/"
               rel="noopener noreferrer"
               target="_blank"
             >
-              <img alt="Depop" className={logoMobileClasses} src={depop} />
+              <img 
+                alt="Depop" 
+                className={logoMobileClasses} 
+                src={depop}
+                style={socialIconStyles}
+              />
             </a>
           </div>
           <div 
@@ -209,21 +225,36 @@ export default class App extends Component {
                   rel="noopener noreferrer" 
                   target="_blank"
                 >
-                  <img alt="Facebook" className={iconDesktopClasses} src={fb} />
+                  <img 
+                    alt="Facebook" 
+                    className={iconDesktopClasses} 
+                    src={fb}
+                    style={socialIconStyles}
+                  />
                 </a>
                 <a
                   href="https://www.instagram.com/granny_fab/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <img alt="Instagram" className={iconDesktopClasses} src={instagram} />
+                  <img 
+                    alt="Instagram" 
+                    className={iconDesktopClasses} 
+                    src={instagram}
+                    style={socialIconStyles} 
+                  />
                 </a>
                 <a
                   href="https://www.depop.com/grannyfab/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <img alt="Depop" className={iconDesktopClasses} src={depop} />
+                  <img 
+                    alt="Depop" 
+                    className={iconDesktopClasses} 
+                    src={depop}
+                    style={socialIconStyles}
+                  />
                 </a>
               </div>
               <h1 style={titleStyles}>MASKS</h1>
